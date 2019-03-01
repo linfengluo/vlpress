@@ -1,0 +1,29 @@
+{
+  "name": "vlpress",
+  "version": "1.0.1",
+  "description": "long press for vue",
+  "main": "./dist/longPress.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc ./src/longPress -t es5 --outDir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linfengluo/vlpress.git"
+  },
+  "keywords": [
+    "vue",
+    "press",
+    "touch"
+  ],
+  "author": "linfengluo@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linfengluo/vlpress/issues"
+  },
+  "homepage": "https://github.com/linfengluo/vlpress#readme",
+  "devDependencies": {
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333"
+  }
+}
